@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: 'Cormorant Garamond', serif;
+  background-color: #f5f1e6;
+  color: #4a3b2c;
+  padding: 20px;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+.cartao-amor {
+  background-color: #f6f1e7;
+  border: 2px dashed #c9a472;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 2rem auto;
+  max-width: 650px;
+  color: #3a2e1e;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.cartao-amor:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.cartao-amor h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  color: #7c4d20;
+  margin-bottom: 1rem;
+}
+.titulo {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #3a2c1e;
+}
+.citacao {
+  font-size: 1.8rem;
+  font-family: 'Cormorant Garamond', serif;
+  text-align: center;
+  color: #3a2e1e;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.flor {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 120px; /* Ajuste o tamanho aqui se quiser maior/menor */
+  z-index: 2; /* Garante que fique na frente mas atrás do texto importante */
+}
+
+.flor img {
+  width: 120px;
+  height: auto;
+  display: block;
+  opacity: 0.9; 
+}
+
+
+.carta {
+  background-color: rgba(255, 248, 220, 0.7);
+  padding: 20px;
+  margin-top: 30px;
+  border: 1px solid #ccb;
+  font-size: 1.2rem;
+  font-style: italic;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.frases blockquote {
+  margin: 20px 0;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.frases span {
+  display: block;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  color: #777;
+}
+
+.foto img {
+  margin-top: 30px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  object-position: 70% center;
+}
+
+@media (max-width: 600px) {
+  .titulo {
+    font-size: 2rem;
+  }
+  .carta {
+    font-size: 1rem;
+  }
+  .frases blockquote {
+    font-size: 0.9rem;
+  }
+}
